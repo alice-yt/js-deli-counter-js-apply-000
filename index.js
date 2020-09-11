@@ -21,6 +21,6 @@ function nowServing(katzDeliLine) {
       for (let i = 0; i < newLine.length; i++) {
         line += (i + 1) + '. ' + newLine[i] + ', '
       }
-        return 'The line is currently: ' += line;
+        return 'The line is currently: ' + line;
     }
   }
