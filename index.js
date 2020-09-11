@@ -1,9 +1,8 @@
 let katzDeliLine = [];
 
 function takeANumber(katzDeliLine, name) {
-  for (let i = 1; i <= katzDeliLine.length; i++) {
-    katzDeliLine.push(name);
-    return `Welcome, ${name}. You are number ${i} in line.`; 
+  katzDeliLine.push(name);
+  return `Welcome, ${name}. You are number ${i} in line.`; 
   }
 }
 
@@ -15,6 +14,8 @@ function nowServing(katzDeliLine) {
        return 'katzDeliLine[i]';
        katzDeliLine = katzDeliLine.slice(1); 
       }
+      
+      
     }
   }
   
