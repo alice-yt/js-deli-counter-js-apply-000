@@ -21,7 +21,7 @@ function nowServing(katzDeliLine) {
       for (let i = 0; i < newLine.length; i++) {
         line += (i + 1) + '. ' + newLine[i] + ', '
       }
-        line = line.splice(0, line.length - 2);
-        return 'The line is currently: ' + line;
+      line = line.splice(0, line.length - 2);
+      return 'The line is currently: ' + line;
     }
   }
