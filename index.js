@@ -7,17 +7,15 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
-    if (katzDeliLine.length === 0) {
-      return 'There is nobody waiting to be served!'
+  while (katzDeliLine.length !== 0) {
+    return 'katzDeliLine[i]';
+    katzDeliLine = katzDeliLine.slice(1); 
     } else {
-      while (katzDeliLine.length !== 0) {
-       return 'katzDeliLine[i]';
-       katzDeliLine = katzDeliLine.slice(1); 
+      if (katzDeliLine.length === 0) {
+        return 'There is nobody waiting to be served!'
       }
-      
-      
     }
-  }
+}
   
   function currentLine(katzDeliLine) {
     let str = 'The line is currently: ';
