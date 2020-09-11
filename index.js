@@ -7,14 +7,7 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
-  while (katzDeliLine.length !== 0) {
-    return 'katzDeliLine[i]';
-    katzDeliLine = katzDeliLine.slice(1); 
-    } else {
-      if (katzDeliLine.length === 0) {
-        return 'There is nobody waiting to be served!'
-      }
-    }
+
 }
   
   function currentLine(katzDeliLine) {
